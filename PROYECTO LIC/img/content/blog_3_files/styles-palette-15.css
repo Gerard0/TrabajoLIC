@@ -1,0 +1,39 @@
+@import url(styles-palette-6.css);
+
+body, .wrapper-content .container, #footer {
+  background:#142132;
+}
+
+.wrapper-header {
+  background:#142132 url(../images/background-15-header.png) no-repeat center top;
+}
+.wrapper-content {
+  background:#142132 url(../images/background-15-content.png) no-repeat center -5px;
+}
+
+div.mg-notice {
+  background-color: #1D3E61;
+}
+
+#header #logo h1 {
+  color: #fff;
+  text-shadow: 0px 2px 2px rgba(0,0,0,0.5);
+}
+
+#header #logo a, #header #logo {
+  color: #fff;
+}
+
+#languages a, #languages a:visited {
+  color: #E1E9F2;
+}
+.content {
+  border: 1px solid #0E0F1C;
+  margin-bottom: 0;
+}
+
+#footer {
+  margin: 10px -10px 0 -10px;
+  padding: 10px 10px 0 10px;
+  width: 960px;
+}
